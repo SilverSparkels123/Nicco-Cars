@@ -1,0 +1,31 @@
+.portfolio_ques {
+  background-color: var(--color-div-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 1.2rem;
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question h4 {
+  font-size: 1.6rem;
+  color: var(--color-font-bl-h);
+}
+
+.question svg {
+  color: var(--color-blue);
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.answer p {
+  font-size: 1.2rem;
+  color: var(--color-font-bl-h);
+}

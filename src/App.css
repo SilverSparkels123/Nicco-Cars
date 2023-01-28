@@ -1,0 +1,37 @@
+.divider-c {
+  width: 100%;
+  height: 100px;
+  /* position: absolute; */
+  left: 0px;
+  background: linear-gradient(
+    to right bottom,
+    #fff 49%,
+    var(--color-section-bg) 30%
+  );
+}
+
+.divider-a {
+  /* position: relative; */
+  width: 100%;
+  display: inline-block;
+  height: 100px;
+  left: 0px;
+  background: linear-gradient(
+    to right top,
+    #fff 49%,
+    var(--color-section-bg) 30%
+  );
+}
+
+.divider-aa {
+  display: inline-block;
+  width: 100%;
+  height: 150px;
+  transform: translateY(-70%);
+  left: 0px;
+  background: linear-gradient(
+    to right top,
+    #fff 49%,
+    var(--color-section-bg) 30%
+  );
+}

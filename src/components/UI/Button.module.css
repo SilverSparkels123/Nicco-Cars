@@ -1,0 +1,35 @@
+.button {
+  /* display: block; */
+  color: #fff;
+  /* width: 50%; */
+  border-radius: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.4rem;
+  display: inline-block;
+  padding: 0.8rem;
+  font-weight: 600;
+  border: none;
+  background-color: var(--color-primary);
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background-color: var(--color-box-bg);
+  border: 1px solid var(--color-border);
+  transition: all 0.4s ease;
+}
+
+@media (max-width: 980px) {
+  .button {
+    border-radius: 0.4rem;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,118 @@
+.car_type {
+  width: auto;
+  max-width: 100%;
+  height: fit-content;
+  /* overflow: hidden; */
+  background-color: var(--color-white);
+  transition: all 0.4s ease;
+}
+
+.car_type img {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.car_title {
+  padding: 1.8rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.car_title h4 {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  color: var(--color-font-bl);
+}
+
+.car_title h3 {
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
+  color: var(--color-primary);
+}
+
+.car_detail {
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.car_detail div {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.car_detail div svg {
+  color: var(--color-icon);
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.car_detail div span {
+  color: var(--color-font-bl);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* More Details Section */
+
+.car_more_details {
+  padding: 1.2rem 1.2rem 0 1.2rem;
+  transition: all 0.4s ease;
+}
+
+.car_more_details div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.car_more_details div:hover {
+  opacity: 0.7;
+}
+
+.car_more_details div h4 {
+  color: var(--color-font-bl);
+  font-size: large;
+}
+
+.car_more_details div svg {
+  color: var(--color-font-bl);
+  font-size: large;
+}
+
+/* Button */
+.btn_reserve_cab {
+  text-align: center;
+}
+
+.btn_reserve_cab button {
+  cursor: pointer;
+  font-size: large;
+  background-color: var(--color-primary);
+  border: 1px solid transparent;
+  color: var(--color-white);
+  padding: 0.8rem 1.6rem;
+  display: inline-block;
+  transform: translateY(50%);
+}
+
+.btn_reserve_cab button:hover,
+.btn_reserve_cab button:active {
+  background-color: transparent;
+  color: var(--color-font-bl);
+  border: 1px solid var(--color-border);
+  transition: all 0.4s ease;
+}
+
+/* More Details */
+.car_type ul {
+  padding: 1.2rem 0.8rem;
+}
+
+.car_type ul li {
+  color: var(--color-font-bl);
+}

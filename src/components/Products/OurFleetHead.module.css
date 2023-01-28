@@ -1,0 +1,22 @@
+.heading_bg {
+  background-image: linear-gradient(
+      118deg,
+      #063661 0%,
+      rgba(43, 78, 136, 0.7) 100%
+    ),
+    url("../../assets/enquiry_bg_img.jpg");
+  background-size: cover;
+  opacity: 0.9;
+  width: 100%;
+  max-width: 100%;
+  /* position: absolute; */
+  margin-top: 9.2rem;
+  height: 24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading_bg h1 span {
+  color: var(--color-primary);
+}

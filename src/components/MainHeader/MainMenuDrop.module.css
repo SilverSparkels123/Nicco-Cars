@@ -1,0 +1,125 @@
+.main_menu_links_div {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+.main_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.products_dropdown:hover .products_links,
+.about_dropdown:hover .about_links {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.products_links,
+.about_links {
+  display: none;
+  position: absolute;
+  background-color: var(--color-white);
+  min-width: 160px;
+  padding: 3.2rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.main_menu a {
+  color: var(--color-font-bl);
+  font-weight: var(--font-weight-nm);
+  font-size: 1.6rem;
+}
+
+.main_menu a:hover,
+.main_menu a:active {
+  color: var(--color-font-bl-h);
+  transition: all 0.3s ease-in-out;
+  /* border-bottom: 3px solid var(--color-primary); */
+}
+
+/* Styling Login Signup Button */
+
+.login_signup_btn {
+  display: inline-block;
+  height: auto;
+  padding: 1.2rem;
+  background-color: var(--color-primary);
+  border-radius: 0.4rem;
+  color: var(--color-white);
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.login_signup_btn:hover,
+.login_signup_btn:active {
+  background-color: var(--color-blue);
+}
+
+@media (max-width: 980px) {
+  .main_menu_links_div {
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+    padding: 3.4rem;
+    background-color: var(--color-white);
+    width: 80%;
+    max-width: 100%;
+    z-index: 100;
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .main_menu {
+    flex-direction: column;
+    padding: 3.4rem;
+  }
+
+  .main_menu a {
+    font-size: 1.8rem;
+  }
+
+  .main_menu li {
+    /* background-color: var(--color-div-bg); */
+    border-top: 1px solid var(--color-div-bg);
+    border-bottom: 1px solid var(--color-div-bg);
+    width: 100%;
+    padding: 2.4rem;
+    cursor: pointer;
+  }
+
+  .main_menu li:hover,
+  .main_menu li:active {
+    background-color: var(--color-div-bg);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .main_menu a:hover,
+  .main_menu a:active {
+    color: var(--color-font-bl-h);
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Styling Login Signup Button */
+
+  .login_signup_btn_div {
+    text-align: center;
+  }
+
+  .login_signup_btn {
+    padding: 1.6rem;
+    border-radius: 0;
+    font-size: 1.8rem;
+    width: 50%;
+  }
+}

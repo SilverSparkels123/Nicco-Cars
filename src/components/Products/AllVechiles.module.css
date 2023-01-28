@@ -1,0 +1,11 @@
+.car_type_div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6.4rem;
+  gap: 4.8rem;
+  justify-content: space-between;
+}
+
+.car_type {
+  width: 46%;
+}

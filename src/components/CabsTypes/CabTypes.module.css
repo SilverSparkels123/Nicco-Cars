@@ -1,0 +1,68 @@
+.cab_types {
+  padding: 2.4rem 0 4.8rem;
+  /* background-color: aqua; */
+}
+
+.cab_types h1 {
+  font-size: 60px;
+  text-align: center;
+  color: var(--color-font-bl);
+  padding: 3.2rem 0;
+}
+
+.car_type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.2rem;
+  flex: auto;
+}
+
+.Cab_types_bg {
+  background-color: var(--color-bg-light);
+}
+
+/* Browse all Buttons */
+
+.btn_browse_all {
+  margin-top: 5.6rem;
+  text-align: center;
+}
+
+.btn_browse_all button {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  background-color: transparent;
+  padding: 1.6rem 2.4rem;
+  border: 1px solid var(--color-border);
+}
+
+.btn_browse_all button:hover,
+.btn_browse_all button:active {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: 1px solid transparent;
+  transition: all 0.4s ease;
+}
+
+/* Media Queries */
+
+@media (max-width: 980px) {
+  .car_type {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4.8rem;
+    flex: auto;
+  }
+}
+
+@media (max-width: 766px) {
+  .cab_types h1 {
+    font-size: 4.2rem;
+    text-align: center;
+    color: var(--color-font-bl);
+    padding: 3.2rem 0;
+  }
+}

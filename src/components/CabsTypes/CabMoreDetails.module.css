@@ -1,0 +1,15 @@
+.more_details {
+  /* position: relative; */
+  line-height: 2.4;
+}
+
+.more_details li {
+  /* position: relative; */
+  font-size: 1.2rem;
+}
+
+@media (max-width: 980px) {
+  .more_details li {
+    text-align: center;
+  }
+}

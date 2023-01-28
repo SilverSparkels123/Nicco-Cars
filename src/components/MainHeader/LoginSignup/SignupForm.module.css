@@ -1,0 +1,74 @@
+.nicco_signup_form {
+  padding: 2.8rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+.nicco_signup_form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.nicco_signup_form form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.nicco_signup_form form input {
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  background-color: var(--color-input-bg);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nicco_signup_form form input:hover,
+.nicco_signup_form form input:active,
+.nicco_signup_form form input:visited {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-primary);
+}
+
+.login_signup_switch {
+  display: flex;
+  flex-direction: column;
+}
+
+.stay_checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.signup_btn {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.8rem;
+  border-radius: 3.2rem;
+  background-color: var(--color-primary);
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: var(--color-white);
+  border: 1px solid transparent;
+}
+
+.signup_btn:hover,
+.signup_btn:active {
+  color: var(--color-primary);
+  background-color: transparent;
+  border: 1px solid var(--color-primary);
+}
+
+.name_input.invalid input {
+  border: 1px solid var(--color-border-err);
+  background-color: var(--color-fill-err);
+}
+
+.input.clicked {
+  border: 1px solid rgb(5, 172, 255);
+  z-index: 90;
+}

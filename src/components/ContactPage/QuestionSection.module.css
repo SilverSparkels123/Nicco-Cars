@@ -1,0 +1,20 @@
+.question_section__bg {
+  background-color: var(--color-bg-light);
+}
+
+.question_section_card {
+  padding: 4.8rem 0;
+}
+
+.question_section_card h1 {
+  color: var(--color-font-bl);
+  font-size: 4.8rem;
+  padding: 3.2rem 0;
+}
+
+.question_section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  justify-content: space-between;
+}

@@ -1,0 +1,47 @@
+.topbar {
+  background-color: var(--color-box-bg);
+  padding: 0.4rem 3.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
+  z-index: 10;
+}
+
+.topbar li a {
+  color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.topbar li a:hover,
+.topbar li a:active {
+  color: var(--color-primary);
+}
+
+.icons {
+  display: inline-block;
+  /* padding-top: 10px; */
+  height: 2rem;
+  width: 2rem;
+  justify-content: center;
+}
+
+@media (max-width: 660px) {
+  .icons {
+    height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .topbar li a {
+    font-size: 1.2rem;
+    gap: 0.4rem;
+  }
+
+  .topbar {
+    gap: 1.2rem;
+  }
+}

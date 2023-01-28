@@ -1,0 +1,42 @@
+.main_menu_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for less the 980px opening menu */
+
+.main_menu_btn_oc {
+  display: none;
+}
+
+.main_menu_btn_oc svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: var(--color-font-bl);
+  cursor: pointer;
+}
+
+.main_menu_btn_oc svg:hover,
+.main_menu_btn_oc svg:active {
+  color: var(--color-primary);
+}
+
+.main_mco {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .main_menu_btn_oc {
+    display: inline-block;
+  }
+  .main_mc {
+    display: none;
+  }
+
+  .main_mco {
+    display: inline-block;
+    transition: all 1s ease;
+  }
+}
